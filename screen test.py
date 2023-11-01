@@ -1,6 +1,6 @@
 import PySimpleGUI as sg
 
-# sg.theme_previewer()
+# sg.theme_previewer() # Exibe todos os temas do pysimplegui
 sg.theme('DarkPurple2')
 layout = [
   [sg.Text('Calcular horário de saída', text_color='white')],
